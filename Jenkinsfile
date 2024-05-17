@@ -37,11 +37,7 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                bat 'mvn deploy'
-            }
-        }
+        
     }
 
     post {
